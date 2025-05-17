@@ -12,6 +12,6 @@
 
 /* Sections style */
 
-@import url('./back-link.css');
-@import url('./timer.css');
-@import url('./snackbar.css');
+@import url('./loader.css');
+@import url('./gallery.css');
+@import url('./form.css');
