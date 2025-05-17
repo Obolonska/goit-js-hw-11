@@ -54,7 +54,6 @@ export function createGallery(images) {
   }
   hideLoader();
 }
-
 export function clearGallery() {
   gallery.innerHTML = '';
 }
