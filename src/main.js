@@ -22,6 +22,7 @@ form.addEventListener('submit', event => {
       title: 'Error',
       message: 'Введіть текст для пошуку',
     });
+    hideLoader();
     return;
   }
   clearGallery();
@@ -34,6 +35,7 @@ form.addEventListener('submit', event => {
           title: 'Info',
           message: 'Зображення не знайдено',
         });
+        hideLoader();
 
         return;
       }
